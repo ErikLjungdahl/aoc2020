@@ -1,3 +1,8 @@
+mod d1;
+
 fn main() {
-    println!("Hello, world!");
+    match d1::main() {
+        None => println!("No Result"),
+        Some(a) => println!("{}", a) 
+    }
 }
