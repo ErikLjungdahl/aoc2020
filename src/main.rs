@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+#![feature(iterator_fold_self)]
 
 mod d6;
 
